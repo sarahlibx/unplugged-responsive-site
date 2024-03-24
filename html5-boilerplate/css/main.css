@@ -97,6 +97,7 @@ body {
  font-size: 1em;
  text-align: left;
  color: #e2e3ed;
+ background-color: #202322;
 }
  
 ul, 
@@ -115,6 +116,7 @@ h2 {
  font-family: 'Poppins', sans-serif;
  font-weight: 500;
  font-size: 1.875em;
+ margin: 0;
 }
  
 h3, 
@@ -296,8 +298,9 @@ input[type=button] {
 .features {
   display: flex;
   justify-content: center;
-  background: url('') center no-repeat #3a3a3a;
+  background: url('../img/unplugged-retreat-features.jpg') center no-repeat #3a3a3a;
   background-size: cover;
+  background-position: center;
 }
 
 .features h2 {
@@ -322,6 +325,7 @@ flex-flow: row wrap;
 }
 
 .features p {
+  text-align: center;
   margin: 0;
 }
 

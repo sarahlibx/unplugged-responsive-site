@@ -529,6 +529,16 @@ input[type=button] {
     margin: 100px 0;
 }
 
+h2 {
+  font-size: 2.25em;
+  line-height: 1.333;
+}
+
+h3 {
+  font-size: 1.5em;
+  line-height: 1.25;
+}
+
 /* Header */
 
 header {
@@ -584,6 +594,14 @@ aside .content-wrapper .form {
 
 /* Features */
 
+.features h2 {
+  margin-bottom: 20px;
+}
+
+.features .features-items {
+  align-items: flex-start;
+}
+
 .features article {
 display: flex;
 align-items: center;
@@ -628,7 +646,6 @@ footer .footer-content {
 display: flex;
 justify-content: space-between;
 align-items: center;
-flex-direction: row;
 }
 
 footer .contact {
@@ -821,6 +838,12 @@ FAQ Page
 .faq h2 {
     width: 100%;
 }
+
+.faq h4,
+  .faq p {
+    font-size: 1.125em;
+    line-height: 1;
+  }
 }
 
 @media print,
